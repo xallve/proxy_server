@@ -8,7 +8,7 @@ This project implements a proxy server that intercepts requests, performs securi
 ## Features
 
 * Request Interception: Captures incoming requests and performs preliminary security checks.
-* Sandbox Execution: Validates potentially harmful requests by executing them in a controlled sandbox environment (Remote server with backup data).
+* Sandbox Execution: Validates potentially harmful requests by executing them in a controlled sandbox environment (Remote server with backup data working as mediator).
 * Flexibility: Allows the main server to define the logic for sandbox validation.
 * Cross-Language Integration: Main server and proxy server can be written in different languages.
 
